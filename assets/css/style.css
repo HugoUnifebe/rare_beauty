@@ -19,6 +19,7 @@ header.cabecalho {
     height: 120px;
     width: 100%;
     padding: 20px;
+    display: inline-table;
 }
 
 header.cabecalho a {
@@ -60,6 +61,18 @@ header.cabecalho .miolo .logo h5 {
     font-style: italic;
     font-size: 20px;
     font-weight: 600;
+}
+
+section.corpo{
+    padding: 0 20px;
+}
+
+section.corpo .banner{
+    background: url('../images/banner_home.png') center no-repeat var(--secundaria);
+    background-size: contain;
+    border-radius: 20px;
+    height: 450px;
+    width: 100%;
 }
 
 @media screen and (max-width: 450px) {

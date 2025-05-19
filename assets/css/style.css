@@ -53,6 +53,7 @@ header.cabecalho .miolo nav ul li::marker {
 header.cabecalho .miolo .navegacao nav ul,
 header.cabecalho .miolo .extras nav ul {
     display: flex;
+    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -75,7 +76,10 @@ section.corpo .banner{
     width: 100%;
 }
 
-@media screen and (max-width: 450px) {
-    header.cabecalho {
+@media screen and (max-width: 1100px) {
+
+    section.corpo .banner{
+        background-size: cover;
     }
+
 }

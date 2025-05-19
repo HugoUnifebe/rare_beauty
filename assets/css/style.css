@@ -64,11 +64,11 @@ header.cabecalho .miolo .logo h5 {
     font-weight: 600;
 }
 
-section.corpo{
+section.corpo {
     padding: 0 20px;
 }
 
-section.corpo .banner{
+section.corpo .banner {
     background: url('../images/banner_home.png') center no-repeat var(--secundaria);
     background-size: contain;
     border-radius: 20px;
@@ -76,10 +76,46 @@ section.corpo .banner{
     width: 100%;
 }
 
+section.corpo .tira {
+    background-color: var(--primaria);
+    color: var(--branco);
+    height: 55px;
+    margin-top: 15px;
+    border-radius: 28px;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+section.corpo .tira h5 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
 @media screen and (max-width: 1100px) {
 
-    section.corpo .banner{
+    section.corpo .banner {
         background-size: cover;
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    section.corpo .tira h5:nth-last-child(-n + 2) {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+    section.corpo .tira h5:nth-last-child(-n + 3) {
+        display: none;
     }
 
 }

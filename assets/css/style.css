@@ -7,8 +7,43 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --primaria: #FF0B53;
     --secundaria: #FCDFE4;
     --branco: #fff;
+}
+
+header.cabecalho {
+    color: var(--primaria);
+    height: 120px;
+    width: 100%;
+    padding: 20px;
+}
+
+header.cabecalho .miolo {
+    color: var(--primaria);
+    background-color: var(--secundaria);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+header.cabecalho .miolo nav ul li::marker {
+    content: '';
+    display: none;
+}
+
+header.cabecalho .miolo .navegacao nav ul,
+header.cabecalho .miolo .extras nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header.cabecalho .miolo .logo h5{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
 }

@@ -21,13 +21,13 @@ header.cabecalho {
     padding: 20px;
 }
 
-header.cabecalho a{
+header.cabecalho a {
     color: var(--primaria);
     text-decoration: none;
     transition: ease-in all 200ms;
 }
 
-header.cabecalho a:hover{
+header.cabecalho a:hover {
     color: var(--primaria-variante);
     text-decoration: underline;
 }
@@ -41,6 +41,7 @@ header.cabecalho .miolo {
     align-items: center;
     gap: 50px;
     padding: 20px;
+    flex-wrap: wrap-reverse;
 }
 
 header.cabecalho .miolo nav ul li::marker {
@@ -52,10 +53,16 @@ header.cabecalho .miolo .navegacao nav ul,
 header.cabecalho .miolo .extras nav ul {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
-header.cabecalho .miolo .logo h5{
+header.cabecalho .miolo .logo h5 {
     font-style: italic;
     font-size: 20px;
     font-weight: 600;
+}
+
+@media screen and (max-width: 450px) {
+    header.cabecalho {
+    }
 }

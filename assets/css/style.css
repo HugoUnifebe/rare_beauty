@@ -9,6 +9,7 @@
 
 :root {
     --primaria: #FF0B53;
+    --primaria-variante: #fc447b;
     --secundaria: #FCDFE4;
     --branco: #fff;
 }
@@ -18,6 +19,17 @@ header.cabecalho {
     height: 120px;
     width: 100%;
     padding: 20px;
+}
+
+header.cabecalho a{
+    color: var(--primaria);
+    text-decoration: none;
+    transition: ease-in all 200ms;
+}
+
+header.cabecalho a:hover{
+    color: var(--primaria-variante);
+    text-decoration: underline;
 }
 
 header.cabecalho .miolo {

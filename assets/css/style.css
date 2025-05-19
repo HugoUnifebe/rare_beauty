@@ -71,7 +71,7 @@ section.corpo {
 section.corpo .banner {
     background: url('../images/banner_home.png') center no-repeat var(--secundaria);
     background-size: contain;
-    border-radius: 20px;
+    border-radius: 28px;
     height: 450px;
     width: 100%;
 }

@@ -15,6 +15,11 @@
     --preto: #616161;
 }
 
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 header.cabecalho {
     color: var(--primaria);
     height: 120px;

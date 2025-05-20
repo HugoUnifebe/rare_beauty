@@ -93,12 +93,35 @@ section.corpo .tira h5 {
     font-weight: 600;
 }
 
+section.corpo .banner-dividido {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+section.corpo .banner-dividido .foto {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 28px;
+    height: 350px;
+    width: 100%;
+}
+
+section.corpo .banner-dividido .foto-1 {
+    background-image: url('../images/banner_home_2.png');
+}
+
+section.corpo .banner-dividido .foto-2 {
+    background-image: url('../images/banner_home_3.png');
+}
+
 
 @media screen and (max-width: 1100px) {
 
     section.corpo .banner {
         background-size: cover;
-    }
+    } 
 
 }
 

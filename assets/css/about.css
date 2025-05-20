@@ -1,0 +1,8 @@
+.h1 {
+    color: var(--primaria);
+    padding: 170px 140px 140px 140px;
+}
+
+.p {
+    color: var(--preto);
+}

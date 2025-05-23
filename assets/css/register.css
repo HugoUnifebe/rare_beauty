@@ -1,0 +1,40 @@
+body {
+    background-color: var(--secundaria);
+    color: var(--branco);
+}
+main {
+    margin: 50px auto;
+    padding: 20px;
+    width: 500px;
+}
+
+h1 {
+    color: var(--primaria);
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: var(--primaria);
+    margin-bottom: 5px;
+}
+
+input {
+    background-color: var(--rosa);
+    width: 100%;
+    border: 2px dotted var(--primaria-variante);
+    border-radius: 30px;
+    padding: 17px;
+    margin-bottom: 20px;
+}
+
+button {
+    color: var(--primaria);
+    background: var(--branco);
+    width: 100%;
+    border: 2px solid var(--primaria-variante);
+    border-radius: 20px;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+button:hover {background-color: var(--rosa2);}

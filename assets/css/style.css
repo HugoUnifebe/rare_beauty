@@ -10,9 +10,11 @@
 :root {
     --primaria: #FF0B53;
     --primaria-variante: #fc447b;
-    --secundaria: #FCDFE4;
+    --secundaria: #fbf3f4;
     --branco: #fff;
     --preto: #616161;
+    --rosa: #fde9eb;
+    --rosa2: #fed5da;
 }
 
 body {

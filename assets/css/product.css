@@ -117,13 +117,13 @@ ul {
     width: 100%;
 }
 
-.text-button {
+.add-to-wishlist {
     font-size: 0.875rem;
     float: right;
     margin-top: 8px;
 }
 
-.text-button i {
+.add-to-wishlist i {
     margin-right: 8px;
 }
 

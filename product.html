@@ -13,16 +13,14 @@
     <header class="cabecalho">
         <div class="miolo">
             <div class="logo">
-                <h5>
-                    Rare Beauty.
-                </h5>
+                <a href="index.html"><h5>Rare Beauty.</h5></a>
             </div>
             <div class="navegacao">
                 <nav>
                     <ul>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="catalog.html">Catalog</a></li>
-                        <li><a href="makeup.html">Makeup</a></li>
+                        <li><a href="product.html">Catalog</a></li>
+                        <li><a href="product.html">Makeup</a></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="media.html">Media</a></li>
                     </ul>
@@ -40,7 +38,7 @@
     </header>
     <main>
         <div class="content">
-            <div class="lateral">
+            <div class="title">
                 <h1>Soft Pinch Liquid Blush</h1>
                 <div class="reviews">
                     <div>
@@ -52,74 +50,123 @@
                     </div>
                     <span>124 reviews</span>
                 </div>
-                <div class="main-description">
-                    <p>A weightless, long-lasting liquid blush that blends and builds beautifully for a soft, healthy flush. </p>
-                    <p>Available in both matte and dewy finishes.</p>
-                </div>
-                <div class="share">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                </div>
-                <h2>Details</h2>
-                <div class="secondary-description">
-                    <p>Lightweight, airy liquid formula blends and builds effortlessly for a soft flush of color.</p>
-                    <p>Infused with long-lasting color pigments for all-day wear — a little goes a long way.</p>
-                    <p>Mistake-proof, it layers beautifully over liquid/powder formulas without messing up makeup.</p>
-                    <p>Available in 13 matte and dewy finishes.</p>
-                    <ul>
-                        <li><strong>Bliss</strong> – nude pink (matte)</li>
-                        <li><strong>Love</strong> – terracotta (matte)</li>
-                        <li><strong>Grace</strong> – bright pink lilac (matte)</li>
-                        <li><strong>Faith</strong> – deep berry (matte)</li>
-                        <li><strong>Joy</strong> – soft peach (dewy)</li>
-                        <li><strong>Happy</strong> – cool pink (dewy)</li>
-                        <li><strong>Lucky</strong> – hot pink (dewy)</li>
-                        <li><strong>Grateful</strong> – true red (dewy)</li>
-                        <li><strong>Hope</strong> – nude lilac (dewy)</li>
-                        <li><strong>Encourage</strong> – soft neutral pink (dewy)</li>
-                        <li><strong>Believe</strong> – true lilac (dewy)</li>
-                        <li><strong>Worth</strong> – true pink (dewy)</li>
-                        <li><strong>Virtue</strong> – beige peach (dewy)</li>
-                    </ul>
-                </div>
             </div>
-            <div class="lateral">
-                <div class="product-images">
-                    <img class="imagem-principal" src="assets/images/products/blush-1.png" alt="Liquid blush">
-                    <div class="product-images-laterais">
-                        <img src="assets/images/products/shade.png" alt="Shades">
-                        <img src="assets/images/products/swatches.png" alt="Swatches">
-                        <img src="assets/images/products/blush-1.png" alt="Blush">
-                        <img src="assets/images/colors/color-1.png" alt="Color">
+            <div class="images-and-details">
+                <div class="images">
+                    <div class="product-images">
+                        <img class="main-image" src="assets/images/products/blush-1.png" alt="Liquid blush">
+                        <div class="side-product-images">
+                            <img src="assets/images/products/shade.png" alt="Shades">
+                            <img src="assets/images/products/swatches.png" alt="Swatches">
+                            <img src="assets/images/products/blush-1.png" alt="Blush">
+                            <img src="assets/images/colors/color-1.png" alt="Color">
+                        </div>
+                    </div>
+                    <input type="text" placeholder="Enter promotional code" class="text-input">
+                    <div class="colors">
+                        <img src="assets/images/colors/color-1.png" alt="Color 1">
+                        <img src="assets/images/colors/color-2.png" alt="Color 2">
+                        <img src="assets/images/colors/color-3.png" alt="Color 3">
+                        <img src="assets/images/colors/color-4.png" alt="Color 4">
+                        <img src="assets/images/colors/color-5.png" alt="Color 5">
+                        <img src="assets/images/colors/color-6.png" alt="Color 6">
+                    </div>
+                    <div class="sizes">
+                        <button class="secondary-button">S</button>
+                        <button class="secondary-button">M</button>
+                        <button class="secondary-button">L</button>
+                    </div>
+                    <div class="buttons">
+                        <div class="add">
+                            <button class="primary-button" id="minus">-</button>
+                            <input type="text" value="1" readonly id="quantity">
+                            <button class="primary-button" id="plus">+</button>
+                        </div>
+                        <button class="primary-button">ADD TO CART • $ 50</button>
+                    </div>
+                    <button class="text-button"><i class="fa fa-heart-o" aria-hidden="true"></i>Add to wishlist</button>
+                </div>
+                <div class="details">
+                    <div class="main-description">
+                        <p>A weightless, long-lasting liquid blush that blends and builds beautifully for a soft, healthy flush. </p>
+                        <p>Available in both matte and dewy finishes.</p>
+                    </div>
+                    <div class="share">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                    <h2>Details</h2>
+                    <div class="secondary-description">
+                        <p>Lightweight, airy liquid formula blends and builds effortlessly for a soft flush of color.</p>
+                        <p>Infused with long-lasting color pigments for all-day wear — a little goes a long way.</p>
+                        <p>Mistake-proof, it layers beautifully over liquid/powder formulas without messing up makeup.</p>
+                        <p>Available in 13 matte and dewy finishes.</p>
+                        <ul>
+                            <li><strong>Bliss</strong> – nude pink (matte)</li>
+                            <li><strong>Love</strong> – terracotta (matte)</li>
+                            <li><strong>Grace</strong> – bright pink lilac (matte)</li>
+                            <li><strong>Faith</strong> – deep berry (matte)</li>
+                            <li><strong>Joy</strong> – soft peach (dewy)</li>
+                            <li><strong>Happy</strong> – cool pink (dewy)</li>
+                            <li><strong>Lucky</strong> – hot pink (dewy)</li>
+                            <li><strong>Grateful</strong> – true red (dewy)</li>
+                            <li><strong>Hope</strong> – nude lilac (dewy)</li>
+                            <li><strong>Encourage</strong> – soft neutral pink (dewy)</li>
+                            <li><strong>Believe</strong> – true lilac (dewy)</li>
+                            <li><strong>Worth</strong> – true pink (dewy)</li>
+                            <li><strong>Virtue</strong> – beige peach (dewy)</li>
+                        </ul>
                     </div>
                 </div>
-                <input type="text" placeholder="Enter promotional code" class="text-input">
-                <div class="colors">
-                    <img src="assets/images/colors/color-1.png" alt="Color 1">
-                    <img src="assets/images/colors/color-2.png" alt="Color 2">
-                    <img src="assets/images/colors/color-3.png" alt="Color 3">
-                    <img src="assets/images/colors/color-4.png" alt="Color 4">
-                    <img src="assets/images/colors/color-5.png" alt="Color 5">
-                    <img src="assets/images/colors/color-6.png" alt="Color 6">
-                </div>
-                <div class="sizes">
-                    <button class="secondary-button">S</button>
-                    <button class="secondary-button">M</button>
-                    <button class="secondary-button">L</button>
-                </div>
-                <div class="buttons">
-                    <div class="add">
-                        <button class="primary-button" id="minus">-</button>
-                        <input type="text" value="1" readonly id="quantity">
-                        <button class="primary-button" id="plus">+</button>
-                    </div>
-                    <button class="primary-button">ADD TO CART • $ 50</button>
-                </div>
-                <button class="text-button"><i class="fa fa-heart-o" aria-hidden="true"></i>Add to wishlist</button>
             </div>
         </div>
     </main>
+    
+    <footer class="rodape">
+        <div class="linha">
+            <div class="logo">
+                <span>Rare Beauty.</span>
+            </div>
+            <div class="colunas">
+                <div class="coluna">
+                    <span>Catalog</span>
+                    <ul>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">Make up</a></li>
+                        <li><a href="#">Skin</a></li>
+                        <li><a href="#">Sets</a></li>
+                    </ul>
+                </div>
+                <div class="coluna">
+                    <span>Clients</span>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="coluna">
+                    <span>Social</span>
+                    <ul>
+                        <li><a href="https://www.instagram.com/rarebeauty" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.snapchat.com/add/wearerarebeauty" target="_blank">Snapchat</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCvOtsjwO04Seaep0J2clYEw" target="_blank">YouTube</a></li>
+                        <li><a href="https://www.tiktok.com/@rarebeauty" target="_blank">Tiktok</a></li>
+                    </ul>
+                </div>
+                <div class="coluna">
+                    <span>Contacts</span>
+                    <ul>
+                        <li><a href="mailto:hello@rarebeauty.com">hello@rarebeauty.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="linha">
+            <span>SELENA GOMEZ</span>
+        </div>
+    </footer>
     <script src="assets/js/product.js"></script>
 </body>
 </html>

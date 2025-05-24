@@ -1,5 +1,5 @@
 main {
-    padding: 0 20px;
+    padding: 20px;
 }
 
 h1, h2, .reviews, .share {
@@ -12,11 +12,6 @@ p, li {
 
 h1, h2 {
     font-size: 1.5rem;
-}
-
-.content {
-    display: flex;
-    gap: 32px;
 }
 
 .reviews {
@@ -63,11 +58,10 @@ ul {
     gap: 20px;
 }
 
-.product-images-laterais {
+.side-product-images {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 82px;
 }
 
 .text-input {
@@ -131,4 +125,54 @@ ul {
 
 .text-button i {
     margin-right: 8px;
+}
+
+@media (min-width: 900px) {
+    .content {
+        position: relative;
+    }
+    .title {
+        position: absolute;
+    }
+    .images-and-details {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 32px;
+    }
+    .details {
+        padding-top: 100px;
+    }
+    .side-product-images {
+        width: 82px;
+    }
+}
+
+@media (max-width: 901px) {
+    .main-image {
+        width: calc(100vw - 40px);
+    }
+    .product-images {
+        flex-direction: column;
+    }
+    .side-product-images {
+        flex-direction: row;
+        width: calc(100vw - 40px);
+    }
+    .side-product-images img {
+        height: 50px;
+        width: auto;
+        max-width: calc((100vw - 40px) / 4);
+    }
+    .colors img {
+        max-width: calc((100vw - 40px) / 6);
+    }
+    .details {
+        margin-top: 92px;
+    }
+}
+
+@media (max-width: 500px) {
+    .buttons {
+        flex-direction: column;
+    }
 }

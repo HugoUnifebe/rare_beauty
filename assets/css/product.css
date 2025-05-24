@@ -1,0 +1,134 @@
+main {
+    padding: 0 20px;
+}
+
+h1, h2, .reviews, .share {
+    color: var(--primaria);
+}
+
+p, li {
+    color: var(--preto);
+}
+
+h1, h2 {
+    font-size: 1.5rem;
+}
+
+.content {
+    display: flex;
+    gap: 32px;
+}
+
+.reviews {
+    margin: 12px 0 48px 0;
+    display: flex;
+    gap: 12px;
+}
+
+.reviews span {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.main-description {
+    margin-bottom: 50px;
+    font-size: 1rem;
+}
+
+.share {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 24px;
+}
+
+.share i {
+    font-size: 2.25rem;
+}
+
+.secondary-description {
+    margin-top: 32px;
+    font-size: 0.875rem;
+}
+
+.secondary-description p {
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.product-images {
+    display: flex;
+    gap: 20px;
+}
+
+.product-images-laterais {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 82px;
+}
+
+.text-input {
+    margin: 32px 0 24px 0;
+    width: 100%;
+}
+
+.colors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.colors img {
+    width: 64px;
+}
+
+.sizes {
+    display: flex;
+    gap: 24px;
+    margin: 24px 0 32px 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.buttons .add {
+    display: flex;
+}
+
+.buttons .add input {
+    background: var(--primaria);
+    color: var(--branco);
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    width: 100px;
+}
+
+.buttons .add button:first-of-type {
+    border-top-right-radius: unset;
+    border-bottom-right-radius: unset;
+}
+
+.buttons .add button:last-of-type {
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+}
+
+.buttons .primary-button {
+    width: 100%;
+}
+
+.text-button {
+    font-size: 0.875rem;
+    float: right;
+    margin-top: 8px;
+}
+
+.text-button i {
+    margin-right: 8px;
+}

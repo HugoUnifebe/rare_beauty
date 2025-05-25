@@ -1,7 +1,136 @@
 .h1 {
     color: var(--primaria);
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.h2 {
+    color: var(--preto);
+}
+
+h2 {
+    margin-bottom: 20px;
 }
 
 .p {
     color: var(--preto);
+}
+
+.section-about {
+    display: flex;
+    padding: 0 37px;
+}
+
+.section-about .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 40px;
+}
+
+.section-about .img {
+    width: 950px;
+}
+
+.section-about .img img {
+    width: 100%;
+    height: initial;
+    object-fit: contain;
+    border-radius: 28px;
+}
+
+.section-founder {
+    display: flex;
+    padding: 0 37px;
+    flex-direction: row-reverse;
+    margin-top: 55px;
+}
+
+.section-founder .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 40px;
+}
+
+.section-founder .img {
+    width: 1500px;
+}
+
+.section-founder .img img {
+    width: 100%;
+    height: initial;
+    object-fit: contain;
+    border-radius: 100%;
+}
+
+.section-quote {
+    margin-top: 55px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-quote .h2 {
+    font-size: 12px;
+}
+
+.section-mission {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    padding: 0 37px;
+}
+
+.section-mission .text {
+    padding: 0 55px;
+}
+
+.section-mission .img {
+    width: 1500px;
+}
+
+.section-mission .img img {
+    width: 100%;
+    height: initial;
+    object-fit: contain;
+    border-radius: 28px;
+}
+
+
+@media screen and (max-width: 585px) {
+
+    .section-about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-about .img {
+        width: 85%;
+        margin-top: 25px;
+    }
+
+    .section-founder {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-founder .img {
+        width: 85%;
+        margin-top: 25px;
+    }
+
+    .section-mission {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-mission .img {
+        width: 85%;
+        margin-top: 25px;
+    }
+
 }

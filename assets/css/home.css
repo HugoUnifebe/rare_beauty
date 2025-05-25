@@ -1,0 +1,70 @@
+/* inicio shop */
+.shop .items {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.shop {
+    margin: 40px 0;
+}
+
+.shop .title {
+    color: var(--primaria);
+    border-bottom: var(--primaria) 1px dotted;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.shop .items .item {
+    padding: 0 10px;
+    position: relative;
+    min-width: 150px;
+}
+
+.shop .items .item.sale .img::after {
+    content: 'SALE';
+    width: 100%;
+    color: var(--branco);
+    background: var(--primaria);
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px 0;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.shop .items .item p {
+    color: var(--preto);
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.shop .items .item .img {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    background-position: center !important;
+    border-radius: 5px;
+}
+
+.shop .items .item.item-1 .img {
+    background: url('../images/products/batom.png');
+}
+
+.shop .items .item.item-2 .img {
+    background: url('../images/products/blush.png');
+}
+
+.shop .items .item.item-3 .img {
+    background: url('../images/products/batom2.png');
+}
+
+.shop .items .item.item-4 .img {
+    background: url('../images/products/pincel.png');
+}
+
+/* fim shop */

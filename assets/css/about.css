@@ -16,6 +16,7 @@ h2 {
     color: var(--preto);
 }
 
+/* inicio sessão sobre */
 .section-about {
     display: flex;
     padding: 0 37px;
@@ -39,6 +40,9 @@ h2 {
     border-radius: 28px;
 }
 
+/* fim sessão sobre */
+
+/* inicio sessão fundador */
 .section-founder {
     display: flex;
     padding: 0 37px;
@@ -64,6 +68,9 @@ h2 {
     border-radius: 100%;
 }
 
+/* fim sessão fundador */
+
+/* inicio sessão citação */
 .section-quote {
     margin-top: 55px;
     text-align: center;
@@ -77,6 +84,16 @@ h2 {
     font-size: 12px;
 }
 
+.section-quote .h1 {
+    width: 450px;
+    animation-name: pisca-texto-rosa;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* fim sessão citação */
+
+/* inicio sessão missão */
 .section-mission {
     display: flex;
     flex-direction: row-reverse;
@@ -100,7 +117,10 @@ h2 {
     border-radius: 28px;
 }
 
+/* fim sessão missão */
 
+/* inicio responsividade 
+para dispositivos <= 585px de tela horizontal */
 @media screen and (max-width: 585px) {
 
     .section-about {
@@ -134,3 +154,31 @@ h2 {
     }
 
 }
+
+/* fim responsividade */
+
+/* incio animação na citação*/
+@keyframes pisca-texto-rosa {
+    0% {
+        color: var(--primaria);
+    }
+
+    20% {
+        color: var(--primaria-variante)
+    }
+
+    50% {
+        color: var(--rosa2);
+    }
+
+    80% {
+        color: var(--primaria-variante)
+    }
+
+    100% {
+        color: var(--primaria);
+    }
+
+}
+
+/* fim animação na citação*/

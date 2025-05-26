@@ -48,6 +48,7 @@ body {
     background: #fff;
     border: 1px solid var(--primaria);
     font-weight: 600;
+    text-decoration: none !important;
 }
 
 .text-button {

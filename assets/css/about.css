@@ -86,8 +86,11 @@ h2 {
 
 .section-quote .h1 {
     width: 450px;
+    /* chama a animação */
     animation-name: pisca-texto-rosa;
+    /* controla o tempo da animação */
     animation-duration: 3s;
+    /* faz a animação ficar em looping infinito */
     animation-iteration-count: infinite;
 }
 
@@ -157,7 +160,8 @@ para dispositivos <= 585px de tela horizontal */
 
 /* fim responsividade */
 
-/* incio animação na citação*/
+/* incio animação na citação
+declara a animação*/
 @keyframes pisca-texto-rosa {
     0% {
         color: var(--primaria);

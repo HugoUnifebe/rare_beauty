@@ -131,7 +131,7 @@ ul {
     .content {
         position: relative;
     }
-    .title {
+    .title.responsive {
         position: absolute;
     }
     .images-and-details {
